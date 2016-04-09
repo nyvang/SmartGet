@@ -24,6 +24,7 @@
         opacity: 0;
         -webkit-transition: opacity 400ms ease-in;
         -moz-transition: opacity 400ms ease-in;
+        -o-transition: opacity 400ms ease-in;
         transition: opacity 400ms ease-in;
         pointer-events: none;
     }
@@ -63,8 +64,8 @@
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
         border-radius: 12px;
-        -moz-box-shadow: 1px 1px 3px #000;
         -webkit-box-shadow: 1px 1px 3px #000;
+        -moz-box-shadow: 1px 1px 3px #000;
         box-shadow: 1px 1px 3px #000;
     }
 
@@ -100,7 +101,7 @@
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
                     <b>Global Options</b>
-                    <img style="margin:7.5px 7.5px;" src='Images/global-options.jpg' />
+                    <img style="margin:7.5px 7.5px;" alt="Visual Studio Options" src='Images/global-options.jpg' />
                 </div>
             </div>
 
@@ -122,7 +123,7 @@
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
                     <b>Solution</b>
-                    <img style="margin:7.5px 7.5px;width:800px;" src='Images/solution.jpg' />
+                    <img style="margin:7.5px 7.5px;width:800px;" alt="Visual Studio Solution" src='Images/solution.jpg' />
                 </div>
             </div>                 
         </fieldset>
